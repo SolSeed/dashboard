@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '2.1.2'
 
 
-gem 'annotate', group: '[:development]'
+gem 'annotate',                      group:   :development
 gem 'byebug',                        groups: [:development, :test]             # Call 'debugger' anywhere in the code to stop execution and get a debugger console
 gem 'coffee-rails', '~> 4.0.0'                                                 # Use CoffeeScript for .js.coffee assets and views
 gem 'decent_exposure'
@@ -14,8 +14,8 @@ gem 'jquery-rails'                                                             #
 gem 'pg'                                                                       # Use postgresql as the database for Active Record
 gem 'rails', '4.2.0.beta1'                                                     # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails-html-sanitizer', '~> 1.0'                                           # Use Rails Html Sanitizer for HTML sanitization
-gem 'rails_12factor', groups: '[:production]'
-gem 'rspec-rails', '~> 3.0.0', group: '[:development, :test]'
+gem 'rails_12factor',                group:   :production
+gem 'rspec-rails', '~> 3.0.0',       groups: [:development, :test]
 gem 'sass-rails', '~> 5.0.0.beta1'                                             # Use SCSS for stylesheets
 gem 'sdoc', '~> 0.4.0',              group: :doc                               # bundle exec rake doc:rails generates the API under doc/api.
 gem 'silent-postgres'
