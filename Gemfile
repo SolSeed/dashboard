@@ -22,4 +22,5 @@ gem 'spring',                        groups: [:development, :test]             #
 gem 'timecop'
 gem 'turbolinks'                                                               # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'uglifier', '>= 1.3.0'                                                     # Use Uglifier as compressor for JavaScript assets
+gem 'unicorn'
 gem 'web-console', '~> 2.0.0.beta2', groups: [:development, :test]             # Call 'debugger' anywhere in the code to stop execution and get a debugger console
