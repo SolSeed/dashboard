@@ -7,7 +7,7 @@ gem 'bootstrap-sass'
 gem 'byebug',                        groups: [:development, :test]             # Call 'debugger' anywhere in the code to stop execution and get a debugger console
 gem 'coffee-rails', '~> 4.0.0'                                                 # Use CoffeeScript for .js.coffee assets and views
 gem 'decent_exposure'
-gem 'devise', git: 'https://github.com/plataformatec/devise.git', branch: 'lm-rails-4-2'
+gem 'devise', github: 'plataformatec/devise', branch: 'lm-rails-4-2'
 gem 'fabrication'
 gem 'faker'
 gem 'haml-rails', '>= 0.5.3'
@@ -17,7 +17,7 @@ gem 'pg'                                                                       #
 gem 'rails', '4.2.0.beta1'                                                     # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails-html-sanitizer', '~> 1.0'                                           # Use Rails Html Sanitizer for HTML sanitization
 gem 'rails_12factor',                group:   :production
-gem 'rails_layout', groups: '[:development]'
+gem 'rails_layout',                  group:   :development
 gem 'rspec-rails', '~> 3.0.0',       groups: [:development, :test]
 gem 'sass-rails', '~> 5.0.0.beta1'                                             # Use SCSS for stylesheets
 gem 'sdoc', '~> 0.4.0',              group: :doc                               # bundle exec rake doc:rails generates the API under doc/api.
